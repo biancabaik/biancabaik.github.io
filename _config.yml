@@ -5,26 +5,31 @@ description: "Personal academic website"
 url: "https://biancabaik.github.io"
 baseurl: ""
 
-# Author / Left Sidebar Settings
+# Theme Configuration
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # Options: "air", "mint", "sunrise", "contrast"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Sidebar Profile Settings
 author:
   name: "Bianca Baik"
-  #avatar: "/images/profile.jpg"
+  avatar: "/images/profile.jpg"
   bio: "PhD Student in Operations Management"
-  
-  # Affiliation & Contact Details
   employer: "University of Texas at Austin"
   employer_url: "https://www.utexas.edu"
   location: "Austin, TX"
   email: "bianca.baik@utexas.edu"
-  
-  # Social & Academic Links
   github: "biancabaik"
 
-# Build settings
-markdown: kramdown
-theme: null
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jemoji
+# Default Page Settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
