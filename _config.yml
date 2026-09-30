@@ -1,0 +1,34 @@
+# Site Settings
+title: "Bianca Baik"
+#title_separator: "-"
+name: "Bianca Baik"
+description: "Personal academic website"
+url: "https://<biancabaik>.github.io"
+#baseurl: "" # Leave empty if repository is named <your-username>.github.io
+
+# Author / Left Sidebar Settings
+author:
+  name: "Bianca Baik"
+  avatar: "/images/profile.jpg" # File path to your headshot in your repository
+  bio: "PhD Student in Operation Managements"
+  
+  # Affiliation & Contact Details (Icons display automatically in theme)
+  employer: "University of Texas at Austin"
+  employer_url: "https://www.utexas.edu"
+  location: "Austin, TX"
+  email: "bianca.baik@utexas.edu"
+  
+  # Social & Academic Links
+  #linkedin: "your-linkedin-username" # e.g., 'nidhish-nerur' from linkedin.com/in/nidhish-nerur
+  #googlescholar: "https://scholar.google.com/citations?user=YOUR_ID" # Optional
+  github: "biancabaik"
+
+
+# Build settings
+markdown: kramdown
+theme: null # Keeps standard Academicpages theme structure
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
