@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-I am a PhD Candidate at McCombs School of Business at the University of Texas at Austin. 
+I am a PhD Student at McCombs School of Business at the University of Texas at Austin. 
 
 ## Education
 
